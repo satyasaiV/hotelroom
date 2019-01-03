@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  .wrapper {
+    font-family: "Proxima Nova";
+    font-weight: 500;
+    height: 100%;
+  }
+  .main{
+      height: 240px;
+      width: 700px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+  }
+  .content {
+    margin-top:15px; 
+    border: 1px solid black;
+    height: 100%;
+  }
+  .col-style{
+    height: 80px;
+    padding: 40px 30px 0 30px;
+  }
+  hr{
+    margin-top: 40px;
+  }
+  a:hover{
+    cursor: pointer;
+  }
+  .leftfloat{
+    float: left;
+    color: #293390;
+  }
+  .rightfloat{
+    float :right;
+  }
+  .bold{
+    font-weight: 800;
+    color: #293390;
+  }
+  .default-color {
+    color: #293390;
+  }
+  .btn-decrease{
+    background-color : #293390;
+  }
+  button:disabled {
+  background-color: gray;
+  }
+  .btn-increase{
+    background-color :#E9425E;
+  }
+  button{
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    outline: none;
+  }
+  button :hover{
+    cursor: pointer;
+  }
+  .icon-color{
+    color: #fff;
+    font-size: 10px;
+  }
